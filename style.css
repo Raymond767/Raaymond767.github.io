@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.font{
+    background: rgb(29, 85, 138);
+}
+.nav{
+    background-color: rgb(37, 101, 175);
+    display: block;
+    overflow: auto;
+    line-height: 1.7em;
+}
+a{
+    text-decoration: none;
+}
+.nav a{
+    color: whitesmoke;
+}
+.nav h1 a{
+    font-size: 40px;
+    margin-left: 150px;
+    padding: 20px 0px;
+    float: left;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{    
+    padding: 20px 0px;
+    margin: 0px 10px;
+    float: right;
+}
+.nav ul li a:hover{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    padding: 4px;
+}
+.div{
+    display: block;
+    width: 100%;   
+}
+.div1 h1{
+    font-size: 45px;
+}
+.div1{
+    margin: 120px 0px 0px 150px;
+    color: whitesmoke;
+    display: inline-block;
+    width: 40%;
+    float: left;
+}
+.div1 a{
+    display: block;
+    margin: 90px 0px;
+    width: 180px;
+    padding: 10px 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+}
+.div1 a:hover{
+    color: whitesmoke;
+    background-color: orange;
+}
+.div2{
+    display: inline-block;
+    float: right;
+    width: 45%;
+    text-align: left;
+}
+.div2 img{
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+}
+.color{
+    color: orange;
+}
+/* A propos */
